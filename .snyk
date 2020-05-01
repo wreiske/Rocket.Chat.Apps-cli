@@ -1,0 +1,16 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - cli-ux > lodash:
+        patched: '2020-05-01T02:35:33.955Z'
+    - inquirer > lodash:
+        patched: '2020-05-01T02:35:33.955Z'
+    - inquirer-checkbox-plus-prompt > lodash:
+        patched: '2020-05-01T02:35:33.955Z'
+    - '@oclif/plugin-not-found > string-similarity > lodash':
+        patched: '2020-05-01T02:35:33.955Z'
+    - inquirer-checkbox-plus-prompt > inquirer > lodash:
+        patched: '2020-05-01T02:35:33.955Z'
